@@ -122,6 +122,7 @@ GEM
     parallel (1.23.0)
     parser (3.2.2.1)
       ast (~> 2.4.1)
+    pg (1.5.3)
     puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.2)
@@ -178,7 +179,6 @@ GEM
     rubocop-ast (1.28.1)
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
-    sqlite3 (1.6.3-x86_64-linux)
     thor (1.2.2)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -198,11 +198,11 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  pg
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   rest-client
   rubocop (>= 1.0, < 2.0)
-  sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
