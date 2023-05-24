@@ -48,3 +48,5 @@ end
 
 gem "rest-client"
 
+gem 'rubocop', require: false
+
