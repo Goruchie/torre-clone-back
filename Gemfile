@@ -51,3 +51,5 @@ end
 gem 'rest-client'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem "sprockets-rails"
