@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  get '/dogs', to: 'users#show'
+  get '/users', to: 'users#show'
   resources :users
 end
