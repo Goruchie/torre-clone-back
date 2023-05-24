@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root 'users#show', id: 'marcosgualtero43253'
+  get '/users', to: 'users#show'
 
   resources :users
 end
